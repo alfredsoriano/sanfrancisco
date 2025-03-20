@@ -74,5 +74,8 @@ Total number of not_offensive & offensive graffiti reports: 58222
 **Clustering**  
 To view the clustering map, and other visualizations such as the heatmap and non-offensive/offensive plot map,
 I have included images of them in the images folder. However, they are interactive maps so the best way to view them is by opening
-the included .ipynb notebook file in Google Colab or VSCode, as they are already ran and loaded into their respective code blocks.
-
+the included .ipynb notebook file in Google Colab or VSCode, as they are already ran and loaded into their respective code blocks.  
+The images folder includes three images:
+- sf_map shows the ~58,000 non-offensive/offensive points on San Francisco (useful for looking at concentrated areas of non-offensive/offensive graffiti)
+- sf_heatmap shows these points in a heat map (useful for looking at high density areas, but has a bit of noise)
+- sf_cluster shows these points in a DBSCAN clustered map (useful for looking at the most concentrated areas, without the noise)
