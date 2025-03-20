@@ -22,6 +22,8 @@ git clone https://github.com/alfredsoriano/sanfrancisco.git
 ```
 This contains the .ipynb file (the Google Colab Notebook file), which you can then open in either
 Google Colab or VSCode. Installing and uploading it allows you to simply view the results and visualizations.
+In case this does not work, the provided .py file allows for a manual way to install the code, however note that the program
+was originally made using .ipynb features, and works best and easily as such.  
 
 To run the code, please download the latest Graffiti dataset from the link `https://data.sfgov.org/City-Infrastructure/Graffiti/vg6y-3pcr/about_data`.
 This is because the .csv file is too big to push to GitHub.
