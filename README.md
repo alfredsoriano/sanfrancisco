@@ -8,10 +8,10 @@ I use Google Colab which by default already has many python libraries installed.
 However if you prefer to not use Colab, you can also upload the .ipynb file to VSCode and view it there. 
 Note that you will need the following libraries if running in an environment other than Colab:
 ```
-pandas #used for data pre-processing and dataframes
-mlxtend #used for association rule extraction with the apriori algorithm
-scikit-learn #used for clustering areas of high graffiti with the DBSCAN algorithm
-folium #used for post-processing and visualization on a map of San Francisco
+pandas   #used for data pre-processing and dataframes
+mlxtend   #used for association rule extraction with the apriori algorithm
+scikit-learn   #used for clustering areas of high graffiti with the DBSCAN algorithm
+folium   #used for post-processing and visualization on a map of San Francisco
 ```
 
 ## Installation
@@ -52,7 +52,7 @@ The information mined from the graffiti dataset allows San Francisco organizatio
 2: Allows people to avoid areas with offensive graffiti, or even go to areas with non-offensive graffiti (includes text or artwork)  
 
 **Association Rules**  
-The following is a table of association rule extracted from the program, with explanations of how to interpret the data.
+The following is a table of association rule extracted from the program, with explanations of how to interpret the data.  
 Total number of not_offensive & offensive graffiti reports: 58222
 | antecedents	| consequents	| support	| confidence	| lift | 
 | ------------ | ------------ | ------------ | ------------ | ------------ |
