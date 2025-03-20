@@ -12,3 +12,13 @@ mlxtend
 scikit-learn
 folium
 ```
+
+## Installation
+
+You would just need to clone the this using 
+```
+git clone https://github.com/alfredsoriano/sanfrancisco.git
+```
+
+This contains the .ipynb file (the Google Colab Notebook file), which you can then open in either
+Google Colab or VSCode.
