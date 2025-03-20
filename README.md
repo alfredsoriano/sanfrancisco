@@ -40,3 +40,5 @@ df = df.dropna()
 print(df.head())
 print(f"Total number of graffiti reports: {len(df)}")
 ```
+
+## Documentation
