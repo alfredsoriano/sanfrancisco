@@ -42,7 +42,7 @@ print(df.head())
 print(f"Total number of graffiti reports: {len(df)}")
 ```
 
-If running on Google Colab, you can 
+If running on Google Colab, you can simply press `ctrl + F9` to run all code blocks in sequence, which is necessary to do anyway.
 
 ## Documentation
 Aim: Help San Francisco to identify areas with high amounts of graffiti, for both non offensive and offensive graffiti.
