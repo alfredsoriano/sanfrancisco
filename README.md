@@ -56,8 +56,8 @@ The information mined from the graffiti dataset allows San Francisco organizatio
 **Association Rules**  
 The following is a table of association rule extracted from the program, with explanations of how to interpret the data.  
 Total number of not_offensive & offensive graffiti reports: 58222
-| antecedents	| consequents	| support	| confidence	| lift | 
-| ------------ | ------------ | ------------ | ------------ | ------------ |
+| | antecedents	| consequents	| support	| confidence	| lift |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | 0	| (building_commercial)	| (not_offensive)	| 0.065285	| 0.651414	| 0.894074 | 
 | 1	| (building_commercial)	| (offensive)	| 0.034935	| 0.348586	| 1.284355 | 
 | 2	| (mail_box)	| (not_offensive)	| 0.043025	| 0.778434	| 1.068410 | 
